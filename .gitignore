@@ -1,0 +1,30 @@
+# Byte-compiled / cache
+__pycache__/
+*.py[cod]
+*.egg-info/
+
+# Environments
+.env
+.venv
+venv/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Model weights (downloaded at runtime, never committed)
+*.gguf
+*.bin
+*.safetensors
+*.pt
+*.pth
+local_model/
+llama_model/
+
+# Generated at runtime by the notebook (contains local URLs, not source)
+app.py
+
+# OS/editor cruft
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
